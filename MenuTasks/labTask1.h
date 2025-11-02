@@ -1,0 +1,6 @@
+#ifndef LABTASK1_H_INCLUDED
+#define LABTASK1_H_INCLUDED
+
+void labTask1();
+
+#endif // LABTASK1_H_INCLUDED

@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1762097169 source:e:\cd\menutasks\main.cpp
+	<iostream>
+	"labTask1.h"
+	"labTask2.h"
+	"labTask3.h"
+	"labTask4.h"
+	"labTask5.h"
+	"labTask6.h"
+	"labTask7.h"
+
+1762094147 e:\cd\menutasks\labtask1.h
+
+1762094160 source:e:\cd\menutasks\labtask1.cpp
+	<bits/stdc++.h>
+
+1762094877 source:e:\cd\menutasks\labtask2.cpp
+	<bits/stdc++.h>
+
+1762095020 e:\cd\menutasks\labtask2.h
+
+1762095373 source:e:\cd\menutasks\labtask3.cpp
+	<bits/stdc++.h>
+
+1762095443 e:\cd\menutasks\labtask3.h
+
+1762095610 e:\cd\menutasks\labtask4.h
+
+1762095648 source:e:\cd\menutasks\labtask4.cpp
+	<bits/stdc++.h>
+
+1762095890 source:e:\cd\menutasks\labtask5.cpp
+	<bits/stdc++.h>
+
+1762096058 source:e:\cd\menutasks\labtask6.cpp
+	<bits/stdc++.h>
+
+1762096261 source:e:\cd\menutasks\labtask7.cpp
+	<bits/stdc++.h>
+
+1762095925 e:\cd\menutasks\labtask5.h
+
+1762096136 e:\cd\menutasks\labtask6.h
+
+1762096311 e:\cd\menutasks\labtask7.h
+
