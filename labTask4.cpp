@@ -1,6 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+bool isKeyWord(string keyWord[], string s)
+{
+    for(int i=0; i<4; i++)
+    {
+        if(s == keyWord[i])
+        {
+            return true;
+        }
+    }
+}
+
 bool isLetterORUnder(char c)
 {
     if((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c == '_'))
@@ -25,9 +36,14 @@ bool isAlphaNumORUnder(char c)
     }
 }
 
-void identifier(string x)
+void identifier(string x, string keyWord[])
 {
     if(!isLetterORUnder(x[0]))
+    {
+        cout << "Not An Identifier" << endl;
+        return;
+    }
+    if(isKeyWord(keyWord, x))
     {
         cout << "Not An Identifier" << endl;
         return;
@@ -50,6 +66,8 @@ int main()
     string x;
     cin >> x;
 
-    identifier(x);
+    string keyWord[4] = {"Max", "Min" ,"main", "sort"};
+
+    identifier(x, keyWord);
     return 0;
 }
