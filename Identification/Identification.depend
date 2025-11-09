@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1762673540 source:e:\cd\identification\identifier.cpp
+	<bits/stdc++.h>
+
+1762673862 source:e:\cd\identification\main.cpp
+	<bits/stdc++.h>
+	"identifier.h"
+
+1762673879 e:\cd\identification\identifier.h
+

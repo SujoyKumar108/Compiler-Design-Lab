@@ -1,0 +1,6 @@
+#ifndef IDENTIFIER_H_INCLUDED
+#define IDENTIFIER_H_INCLUDED
+
+void labTask4();
+
+#endif // IDENTIFIER_H_INCLUDED
